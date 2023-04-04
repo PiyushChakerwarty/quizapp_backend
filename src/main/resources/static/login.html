@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <nav>
+        <a href="http://localhost:8080/"><img src="./Project Logo.png" width="100px" height="75px" alt="Logo"></a>
+        <a href="http://localhost:8080/"><button id="home-btn">Home</button></a>
+    </nav>
+    <header>
+        <h1 class="heading">Test Maker</h1>
+        <p><i>"Test your skills"</i></p>
+    </header>
+    <div class="register">
+        <form action="./create_view_test.html" method="post">
+            <table>
+                <tr><td><h1>Login</h1></td></tr>
+                
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="example@abc.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" name="password" id="passwrd" placeholder="Enter your password"></td>
+                </tr>
+                
+                <tr>
+                    <td><a href="#">Forgot Password?</a></td>
+                    <td><a href="./create_view_test.html"><button type="button" id="submit-login">Sign In</button></a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="./register.html"><button type="button" id="reg-login">Register</button></a>
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+}
+nav img{
+    border-radius: 20px;
+}
+#home-btn{
+    padding: 10px 40px;
+    background-color: #F15048;
+    color: whitesmoke;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+}
+header{
+    text-align: center;
+    margin-top: 5%;
+}
+header h1{
+    font-size: 50px;
+    margin: 0;
+}
+header p{
+    margin-top: 0px;
+}
+
+.home-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+.home-btn, .test-options button{
+    font-size: 30px;
+    padding: 30px 50px;
+    border-radius: 20px;
+    border-color: transparent;
+    color: whitesmoke;
+
+}
+.teacher-btn{
+    background-color: #196BFF;
+}
+.student-btn{
+    background-color: #03C988;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+table tr{
+    margin-top: 30px;
+}
+table tr label{
+    font-size: 20px;
+}
+#submit, #reset, #submit-login, #reg-login, #add-quest, #save-answers {
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+#submit{
+    background-color: #03C988;
+}
+#reset, #reg-login{
+    background-color: #F15048;
+}
+
+/* Login Page */
+#submit-login{
+    background-color: #03C988;
+    float: right;
+}
+#reg-login{
+    margin-top: 0;
+}
+
+/* Create/View/Edit Test Menu */
+
+.test-options{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 300px;
+}
+
+#create-test{
+    background-color: #03C988;
+}
+#view-test{
+    background-color: #196BFF;
+}
+
+
+/* CreateTest Page */
+.questions{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto 5%;
+    background-color: #A5F7E1;
+    border-radius: 20px;
+    padding: 20px;
+}
+.test-title{
+    text-align: center;
+}
+
+.question-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 3% auto;
+    background-color: #DBE1F1;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.question{
+    margin: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+.answer-type button, .edit-questText{
+    background-color: #96ADFC;
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 20px;
+}
+#checkbox{
+    margin: 0 20px;
+}
+#add-quest{
+    background-color: #03C988;
+}
+.add-quest-btn, .save-answers-btn{
+    display: flex;
+    justify-content: end;
+
+}
+
+.multi-choice, .checkbox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between ;
+}
+.quest-text-inp{
+    margin: 20px 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.question-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.edit-questText{
+    padding: 10px 20px ;
+    align-self: center;
+}
+
+
+/* Student login Page */
+.student-login-head{
+    background-color: #196BFF;
+    color: whitesmoke;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.test-code{
+    width: 30%;
+    margin: 5% auto;
+}
+.test-code input{
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.test-code button{
+    background-color: #03C988;
+    border-radius: 10px;
+    border: 0px;
+    padding: 12px 20px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+#save-answers{
+    background-color: #03C988;
+
+}

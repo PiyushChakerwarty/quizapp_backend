@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Quiz App | Student</title>
+</head>
+
+<body>
+    <nav>
+        <a href="../index.html"><img src="../../images/Project Logo.png" width="100px" height="75px" alt="Logo"></a>
+        <a href="../index.html"><button id="home-btn">Home</button></a>
+    </nav>
+    <section class="questions">
+        <div class="test-title">
+            <h2>Mathematics</h2>
+        </div>
+        <form action="#">
+        <div class="all-questions">
+            <div class="question-container">
+                <div class="question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae
+                    voluptatum nobis repellendus placeat assumenda, earum commodi! Ducimus, assumenda voluptate.</div>
+                <div class="answer-type">
+                    <button type="button" id="multi-choice">Multiple Choice</button>
+                    <button type="button" id="checkbox">Checkbox</button>
+                    <button type="button" id="paragraph">Paragraph</button>
+                </div>
+                <div class="answer-area">
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="save-answers-btn">
+            <button type="submit" id="save-answers" required onclick="validateForm(event)">Save</button>
+        </div>
+
+    </form>
+
+    </section>
+    <script src="../js/studentTest.js"></script>
+</body>
+
+</html>
